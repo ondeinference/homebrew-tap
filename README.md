@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://ondeinference.com"><img src="https://img.shields.io/badge/ondeinference.com-235843?style=flat-square&labelColor=17211D" alt="Website"></a>
+  <a href="https://www.npmjs.com/package/@ondeinference/cli"><img src="https://img.shields.io/npm/v/@ondeinference/cli?style=flat-square&labelColor=17211D&color=235843" alt="npm"></a>
   <a href="https://pypi.org/project/onde-cli/"><img src="https://img.shields.io/pypi/v/onde-cli?style=flat-square&labelColor=17211D&color=235843" alt="PyPI"></a>
   <a href="https://crates.io/crates/onde-cli"><img src="https://img.shields.io/crates/v/onde-cli?style=flat-square&labelColor=17211D&color=235843" alt="Crates.io"></a>
   <a href="https://github.com/ondeinference/onde-cli/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-235843?style=flat-square&labelColor=17211D" alt="License"></a>
@@ -39,14 +40,15 @@ brew untap ondeinference/homebrew-tap
 
 ## About
 
-This tap provides the native `onde` binary for macOS (Apple silicon and Intel).
+This tap provides the native `onde` binary for macOS (Apple Silicon and Intel).
 
-`onde` is a terminal UI for [Onde Inference](https://ondeinference.com) — sign up, sign in, and manage your apps and model assignments without leaving the terminal.
+`onde` is a terminal UI for [Onde Inference](https://ondeinference.com). Sign up, sign in, manage your apps and model assignments, and run LoRA fine-tuning on Qwen models — all without leaving the terminal. Fine-tuning runs locally on Metal or CPU; no cloud account or Python environment required.
 
 ## Other installation methods
 
 | Method | Command |
 |--------|---------|
+| npm | `npm install -g @ondeinference/cli` |
 | pip | `pip install onde-cli` |
 | uv | `uv tool install onde-cli` |
 | cargo | `cargo install onde-cli` |
