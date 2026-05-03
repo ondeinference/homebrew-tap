@@ -5,7 +5,7 @@
 <h1 align="center">onde Homebrew Tap</h1>
 
 <p align="center">
-  <strong>Official <a href="https://brew.sh/">Homebrew</a> tap for the <a href="https://github.com/ondeinference/onde-cli">onde CLI</a>.</strong>
+  <strong>Official <a href="https://brew.sh/">Homebrew</a> tap for the <a href="https://github.com/ondeinference/onde-cli">onde CLI</a> from <a href="https://ondeinference.com/">Onde Inference</a>.</strong>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ brew untap ondeinference/homebrew-tap
 
 ## About
 
-This tap provides the native `onde` binary for macOS (Apple Silicon and Intel).
+This tap provides the native `onde` binary for macOS (Apple Silicon and Intel). For package docs and install options outside Homebrew, see <https://ondeinference.com/cli>.
 
 `onde` is a terminal UI for [Onde Inference](https://ondeinference.com). Sign up, sign in, manage your apps and model assignments, and run LoRA fine-tuning on Qwen models — all without leaving the terminal. Fine-tuning runs locally on Metal or CPU; no cloud account or Python environment required.
 
@@ -65,6 +65,6 @@ see [onde-cli](https://github.com/ondeinference/onde-cli/blob/main/LICENSE-MIT) 
 
 ---
 
-<p align="center">
-  <sub>Built by <a href="https://ondeinference.com">Onde Inference</a> · © 2026</sub>
-</p>
+## Copyright
+
+© 2026 [Onde Inference](https://ondeinference.com) (Splitfire AB).
