@@ -21,7 +21,7 @@
 ## Install
 
 ```bash
-brew tap ondeinference/homebrew-tap
+brew tap ondeinference/homebrew-tap && brew trust --tap ondeinference/homebrew-tap
 brew install onde
 ```
 
@@ -35,7 +35,7 @@ brew upgrade onde
 
 ```bash
 brew uninstall onde
-brew untap ondeinference/homebrew-tap
+brew untap ondeinference/homebrew-tap && brew trust --tap ondeinference/homebrew-tap
 ```
 
 ## About
@@ -67,4 +67,4 @@ see [onde-cli](https://github.com/ondeinference/onde-cli/blob/main/LICENSE-MIT) 
 
 ## Copyright
 
-© 2026 [Onde Inference](https://ondeinference.com) (Splitfire AB).
+© 2026 [Splitfire AB](https://5mb.app) ([Onde Inference](https://ondeinference.com)).
