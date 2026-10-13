@@ -4,17 +4,17 @@
 class Onde < Formula
   desc 'Command-line interface for Onde Inference'
   homepage 'https://ondeinference.com'
-  version '0.4.2'
+  version '0.4.3'
   license 'MIT OR Apache-2.0'
 
   on_macos do
     on_arm do
-      url 'https://github.com/ondeinference/onde-cli/releases/download/v0.4.2/onde-macos-arm64.tar.gz'
-      sha256 '183bbbbef1eac6a51b767012195ba7cdab62f05485dd64d59c73af487bab028f'
+      url 'https://github.com/ondeinference/onde-cli/releases/download/v0.4.3/onde-macos-arm64.tar.gz'
+      sha256 '7b19af5b8b42e8d33962d130950eba7001fa8a24d0b14af940bb0db95565322e'
     end
     on_intel do
-      url 'https://github.com/ondeinference/onde-cli/releases/download/v0.4.2/onde-macos-amd64.tar.gz'
-      sha256 'e3b58f7d63f8574d814dca030e781f83d644bfe56f14526d66ae4bc55e620ce4'
+      url 'https://github.com/ondeinference/onde-cli/releases/download/v0.4.3/onde-macos-amd64.tar.gz'
+      sha256 '1ff039ac26833e712f61d427b359b01b8e282fdb254493a4f446335810241d99'
     end
   end
 
